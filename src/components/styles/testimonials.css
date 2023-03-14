@@ -43,6 +43,16 @@
 /*=================== MEDIA QUERIES (SMALL DEVICES) ==========================*/
 
 @media screen and (max-width: 600px) {
+  #testimonials {
+    margin-left: 0.2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .swiper {
+    width: 80%;
+  }
+
   .container .testimonials__container {
     width: var(--container-width-sm);
   }
