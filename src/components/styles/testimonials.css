@@ -34,30 +34,45 @@
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ==========================*/
 
 @media screen and (max-width: 1024px) {
-  .container .testimonials__container {
-    margin-top: 15rem;
-    width: 75%;
-  }
+
+  
 }
 
 /*=================== MEDIA QUERIES (SMALL DEVICES) ==========================*/
 
 @media screen and (max-width: 600px) {
   #testimonials {
-    margin-left: 0.2rem;
+    margin-left: 0;
+    margin-bottom: -30rem;
+  }
+
+  .testimonials__container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #testimonials {
+    margin-top: 75rem;
+    margin-bottom: 20rem;
+    padding-bottom: 1rem;
+    margin-left: 5rem;
+  }
+  .testimonials__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
     width: 100%;
-    margin-bottom: 1rem;
+    margin: 0 auto;
   }
-
+  .client__name {
+    margin-top: 2.5rem;
+  }
+  .swiper-slide{
+    width: 0;
+  }
   .swiper {
-    width: 80%;
-  }
-
-  .container .testimonials__container {
-    width: var(--container-width-sm);
-  }
-
-  .client__review {
-    width: (--container-width-sm);
+    width: 100%;
+    left: -3rem;
   }
 }

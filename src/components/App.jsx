@@ -12,15 +12,15 @@ import React from 'react'
 const App = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Footer />
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testimonial />
+        <Contact />
+        <Footer />
     </>
   )
 }

@@ -35,24 +35,35 @@
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ==========================*/
 
 @media screen and (max-width: 1024px) {
-  .portfolio__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
+  
 }
 
 /*=================== MEDIA QUERIES (SMALL DEVICES) ==========================*/
 
 @media screen and (max-width: 600px) {
+  #portfolio{
+    margin-left: 0rem;
+    margin-bottom: 90rem;
+    width: 100%;
+  }
+
+  .portfolio__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
   #portfolio {
-    margin-left: 3rem;
-    margin-bottom: 60rem;
-    width: 80%;
+    margin-top: 65rem;
   }
 
   .portfolio__container {
-    margin-top: 1rem;
+    display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2.5rem;
+    margin-left: 0rem;
+    width: 100%;
   }
 }

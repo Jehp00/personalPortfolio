@@ -52,15 +52,8 @@ footer a {
   color: var(--color-bg);
 }
 
-/*=================== MEDIA QUERIES (SMALL DEVICES) ==========================*/
+/*=================== MEDIA QUERIES (MEDIUM DEVICES) ==========================*/
 
-@media screen and (max-width: 600px) {
-  .permalinks {
-    flex-direction: column;
-    gap: 1,5rem;
-  }
+@media screen and (max-width: 1024px) {
 
-  .footer__socials {
-    margin-bottom: 2.6rem;
-  }
 }
