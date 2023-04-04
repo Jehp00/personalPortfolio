@@ -1,9 +1,13 @@
+#testimonials {
+  margin-top: 25rem;
+}
+
 .testimonials__container {
   display: grid;
   grid-template-columns: 2fr 2fr;
   gap: 1rem;
   width: 60%;
-  margin: 0 auto;
+  margin: 0rem auto;
 }
 
 .client__avatar {
