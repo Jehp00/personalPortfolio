@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/portfolio.css'
-import IMG1 from '../styles/assets/portfolio1.jpg'
-import IMG2 from '../styles/assets/portfolio2.jpg'
-import IMG3 from '../styles/assets/portfolio3.jpg'
+import IMG1 from '../styles/assets/portfolio1.png'
+import IMG2 from '../styles/assets/portfolio2.png'
+import IMG3 from '../styles/assets/portfolio3.png'
 
 
 const Portfolio = () => {
@@ -42,7 +42,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>Techstars Repository</a>
+                <a href={github} className='btn' target='_blank'>{title}</a>
               </div>
             </article>
             )
