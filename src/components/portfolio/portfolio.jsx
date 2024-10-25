@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/portfolio.css'
-import IMG1 from '../styles/assets/portfolio1.png'
+import IMG1 from '../styles/assets/portfolio1.jpg'
 import IMG2 from '../styles/assets/portfolio2.png'
-import IMG3 from '../styles/assets/portfolio3.png'
 
 
 const Portfolio = () => {
@@ -11,21 +10,15 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: "TechStars Investors",
-      github: "https://github.com/capstone-project-sparck/capstone_project"
+      title: "Minca Electric",
+      github: "https://www.mincaelectric.com/"
     },
     {
       id: 2,
       image: IMG2,
-      title: "CHESS || PYTHON",
-      github: "https://github.com/Jehp00/Chess_Python"
-    },
-    {
-      id: 3,
-      image: IMG3,
-      title: "AirBNB Clone",
-      github: "https://github.com/Jehp00/holbertonschool-AirBnB_clone_v4"
-    },
+      title: "Brumalab Agency",
+      github: "https://www.brumalab.agency/"
+    }
   ];
 
   return (
@@ -42,7 +35,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>{title}</a>
+                <a href={github} className='btn' >{title}</a>
               </div>
             </article>
             )
